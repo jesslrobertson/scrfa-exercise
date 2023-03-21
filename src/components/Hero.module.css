@@ -1,0 +1,38 @@
+.heroBox {
+  background-image: url('/Users/jasper/dev/pre-employment/scrfa-exercise/src/assets/shutterstock_42474535.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroText {
+  color: white;
+  width: 40vw;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.searchBox {
+  display: flex;
+  margin: 2rem;
+}
+
+.searchInput {
+  width: 20rem;
+  padding: .2rem .5rem;
+}
+
+.searchInput::placeholder {
+  font-style: italic;
+}
+
+.searchIcon {
+  height: .8rem;
+  margin: 0 5px;
+}
+

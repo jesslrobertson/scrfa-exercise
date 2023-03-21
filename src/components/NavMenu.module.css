@@ -1,0 +1,77 @@
+.menuBox {
+  width: 100vw;
+  height: 35rem;
+  background-color: white;
+  z-index: 100;
+  position: absolute;
+  top: 7rem;
+  display: grid;
+  grid-template-columns: 21% 79%;
+}
+
+.mainMenu {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 66% 33%;
+  grid-column: 2 / 3;
+  margin-left: 2rem;
+}
+
+.leftSideBar {
+  background-color: var(--gray-100);
+  height: 33rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.column1Top {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.column1Bottom {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.column2 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.column3 {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+.sectionTitle {
+  color: var(--blue-600);
+  margin-top: 1rem;
+}
+
+.sidebarLink {
+  color: var(--blue-700);
+}
+.divider {
+  width: 10rem;
+  height: 3px;
+  background-color: var(--gray-200);
+  margin: 5px;
+}
+
+.linkBox {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.menuLink {
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin: .5rem 0;
+}
