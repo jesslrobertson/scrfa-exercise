@@ -76,3 +76,30 @@
   width: 100vw;
   margin: none;
 }
+@media screen and (max-width: 410px){
+  .logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 615px){
+  .headerFour {
+    font-size: .9rem;
+    text-align: left;
+  }
+  .subtitle {
+    line-height: 15pt;
+    text-align: left;
+  }
+  .logo {
+    height: 4rem;
+  }
+}
+@media screen and (max-width: 1160px){
+  .navLink {
+    display: none;
+  }
+
+  .right {
+    width: 3rem;
+  }
+}

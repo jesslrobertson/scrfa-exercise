@@ -4,4 +4,12 @@
   align-items: center;
   justify-content: space-evenly;
   height: 20rem;
+  width: 100vw;
+}
+
+@media screen and (max-width: 960px){
+  .linkBox {
+    flex-wrap: wrap;
+    height: auto;
+  }
 }

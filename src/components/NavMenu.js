@@ -17,7 +17,7 @@ export default function NavMenu() {
         <div className={styles.leftSideBar}>
           {sideBarLinks.map((item, index) => {
             return index !== sideBarLinks.length - 1 ? (
-              <div key={index}>
+              <div key={index} className={styles.sidebarLinkBox}>
                 <a href=" " className={`h4 ${styles.sidebarLink}`}>
                   {item}
                 </a>

@@ -7,6 +7,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100vw;
 }
 
 .heroText {
@@ -19,12 +20,15 @@
 
 .searchBox {
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 2rem;
 }
 
 .searchInput {
   width: 20rem;
-  padding: .2rem .5rem;
+  padding: .5rem .5rem;
+  margin: .5rem 0;
 }
 
 .searchInput::placeholder {
@@ -36,3 +40,38 @@
   margin: 0 5px;
 }
 
+.button {
+  height: 2rem;
+}
+@media screen and (max-width: 360px){
+  .heroText {
+    width: 90vw;
+  }
+
+}
+@media screen and (max-width: 570px){
+  .searchBox {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .button {
+    width: 19rem;
+  }
+
+  .searchInput {
+    width: 18rem;
+  }
+  .heroText {
+    width: 90vw;
+  }
+
+  .heroBox {
+    height: 45vh;
+  }
+}
+@media screen and (max-width: 815px){
+  .heroText {
+    width: 80vw;
+  }
+}

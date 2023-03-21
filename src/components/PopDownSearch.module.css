@@ -44,3 +44,9 @@
 .searchButton {
   border: 2px white solid;
 }
+
+@media screen and (max-width: 625px){
+  .searchIconButtonClosed {
+    display: none;
+  }
+}

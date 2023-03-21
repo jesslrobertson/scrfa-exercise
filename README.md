@@ -25,4 +25,4 @@ To start the file, open the terminal, navigate to the project directory, and run
 
 * Assuming the rest of the site was live and functional, I would connect all links to their paths, and connect search fields to the relevant API calls.
 
-* I would ask questions of the designer. Specifically, I would ask whether the main menu requires hover and click states over menu items, and about plans for responsiveness of the site. Once plans for responsive design were in place, I would implement those using media queries.
+* I would ask questions of the designer. Specifically, I would ask whether the main menu requires hover and click states over menu items.

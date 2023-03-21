@@ -27,8 +27,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   grid-column: 1 / 2;
   grid-row: 1 / 3;
+}
+
+.sidebarLinkBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .column1Top {
@@ -85,3 +93,40 @@
   width: 100vw;
   margin: none;
 }
+@media screen and (max-width: 710px){
+  .mainMenu {
+    display: none;
+  }
+  .leftSideBar {
+    width: 100vw;
+  }
+  .divider {
+    min-width: 40vw;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 970px){
+  .mainMenu{
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .menuSubBox {
+    display: grid;
+    
+  }
+  .menuBox {
+    height: auto;
+  }
+
+  .leftSideBar {
+    height: auto;
+    padding: 1rem 0;
+  }
+
+}
+@media screen and (max-width: 1140px){
+  .divider {
+    width: 8rem;
+  }
+}
+
+
