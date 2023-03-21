@@ -1,0 +1,46 @@
+.searchIconButton {
+  display: flex;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchIconButtonClosed {
+  border: 1px var(--blue-300) solid;
+  background-color: white;
+}
+
+.searchIconButtonOpen {
+  z-index: 200;
+  background-color: var(--blue-300);
+  margin: none;
+}
+
+.searchIcon {
+  height: 1rem;
+}
+
+.activeSearchContainer {
+  display: flex;
+  position: relative;
+}
+
+.activeSearchPopDown {
+  display: flex;
+  position: absolute;
+  background-color: var(--blue-300);
+  right: 1.25rem;
+  top: 4.53rem;
+  padding: 1.6rem;
+  width: 25rem;
+}
+
+.searchInput {
+  width: 20rem;
+}
+
+.searchButton {
+  border: 2px white solid;
+}

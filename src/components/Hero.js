@@ -10,7 +10,7 @@ export default function Hero() {
         informed policy decisions and administration of services
       </div>
       <div className={styles.searchBox}>
-        <input className={styles.searchInput} placeholder="Search rfa.sc.gov"/>
+        <input className={styles.searchInput} placeholder="Search rfa.sc.gov" />
         <button className={`${styles.button} solid-button icon-button`}>
           Search
           <span>

@@ -1,7 +1,7 @@
-import DataSVG from './Data-Research-Icon.svg'
-import GeoSVG from './Geography-Icon.svg'
-import ProgramSVG from './Programs-Icon.svg'
-import LegislativeSVG from './Legislative-Icon.svg'
+import DataSVG from "./Data-Research-Icon.svg";
+import GeoSVG from "./Geography-Icon.svg";
+import ProgramSVG from "./Programs-Icon.svg";
+import LegislativeSVG from "./Legislative-Icon.svg";
 
 const menuContent = [
   {
@@ -17,7 +17,8 @@ const menuContent = [
       "State Register Calculations",
       "Presentations",
     ],
-    svgImg: DataSVG
+    svgImg: DataSVG,
+    altProp: "Stylized portrayal of infographic",
   },
   {
     title: "Geography & Mapping",
@@ -30,7 +31,9 @@ const menuContent = [
       "Interactive Mapping",
       "Statewide Aerial Imagery",
     ],
-    svgImg: GeoSVG
+    svgImg: GeoSVG,
+    altProp:
+      "Globe with outline of the state of South Carolina superimposed over it",
   },
   {
     title: "Programs & Services",
@@ -43,7 +46,8 @@ const menuContent = [
       "Fiscal Analysis",
       "2020 Census",
     ],
-    svgImg: ProgramSVG
+    svgImg: ProgramSVG,
+    altProp: "Stylized portrayal of informational documents",
   },
   {
     title: "Legislative Fiscal Impacts",
@@ -53,8 +57,9 @@ const menuContent = [
       "Previous General Assembly Sessoin",
       "Forms",
     ],
-    svgImg: LegislativeSVG
+    svgImg: LegislativeSVG,
+    altProp: "A bag of money and a calculator",
   },
 ];
 
-export default menuContent
+export default menuContent;
